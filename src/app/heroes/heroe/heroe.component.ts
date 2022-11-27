@@ -1,4 +1,4 @@
-import {Component} from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-heroe',
@@ -20,7 +20,7 @@ export class HeroeComponent {
 
   cambiarNombre(): void {
     //metodo
-    this.nombre = 'Spiderman';
+    this.nombre = 'Aqua-man';
   }
 
   cambiarEdad(): void {
